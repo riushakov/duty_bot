@@ -1,4 +1,4 @@
-BOT_TOKEN = '5941939867:AAGmWGfE3shyHqHbUmZ0Amyza35f_FSO7Kk'
+BOT_TOKEN = ''
 
 ENV_PROD = 'prod'
 ENV_TEST = 'test'
