@@ -1,4 +1,4 @@
-from connection import Base, session
+from connection import Base, session, engine
 from sqlalchemy import Column, Integer, BigInteger, String, DateTime, Boolean, func, asc, distinct
 from datetime import datetime as dt
 
@@ -57,3 +57,6 @@ class Event(Base):
     def get_distinct_chats_id(cls):
         chat_ids = session.query(distinct(Event.chat_id)).all()
         return [i[0] for i in chat_ids]
+
+
+Base.metadata.create_all(engine)
