@@ -18,9 +18,6 @@ SMILE_STATUS = {
 }
 
 SERVICE_NAME = {
-    'a': 'arcadia',
-    'infra': 'infra',
-    'st': 'tracker',
-    'yd': 'deploy'
+    'infra': 'infra'
 }
 
