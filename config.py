@@ -1,4 +1,5 @@
-BOT_TOKEN = ''
+import os
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 ENV_PROD = 'prod'
 ENV_TEST = 'test'
@@ -18,6 +19,9 @@ SMILE_STATUS = {
 }
 
 SERVICE_NAME = {
-    'infra': 'infra'
+    'a': 'arcadia',
+    'infra': 'infra',
+    'st': 'tracker',
+    'yd': 'deploy'
 }
 
